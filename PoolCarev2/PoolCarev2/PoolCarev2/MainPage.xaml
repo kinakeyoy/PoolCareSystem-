@@ -2,11 +2,12 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:PoolCarev2"
-             x:Class="PoolCarev2.MainPage">
+             x:Class="PoolCarev2.MainPage"
+             BackgroundColor="Brown">
 
-    <StackLayout  VerticalOptions="Center" HorizontalOptions="Center">  
-        <Label TextColor="Black" Text="Welcome To Pool Care Systems!"/>
-        <Button Margin="20,200,20,20" TextColor="White" Text="Siguiente" BackgroundColor="Blue"/>
+    <StackLayout  VerticalOptions="Center" HorizontalOptions="Center" BackgroundColor="AntiqueWhite">  
+        <Label TextColor="Black" Text="Welcome To Pool Care Systems!" FontSize="60" HorizontalTextAlignment="Center" x:Name="Label_1"/>
+        <Button Margin="100,100,100,100" TextColor="White" Text="Siguiente" BackgroundColor="Blue" />
     </StackLayout>
 
 </ContentPage>

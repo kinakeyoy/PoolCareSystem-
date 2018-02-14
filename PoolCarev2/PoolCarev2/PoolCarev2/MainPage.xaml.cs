@@ -12,6 +12,6 @@ namespace PoolCarev2
 		public MainPage()
 		{
 			InitializeComponent();
-		}
+        }
 	}
 }
